@@ -10,6 +10,7 @@ import static org.testng.Assert.assertEquals;
 public class HarryPotterTest {
 
     private HarryPotter hp;
+
     @BeforeClass
     public void setUp() throws Exception{
         hp = new HarryPotter();
@@ -21,18 +22,22 @@ public class HarryPotterTest {
     }
     @Test
     public void priceForTwoDiff(){
-        assertEquals("15.2EUR",hp.printPrice(2));
+        assertEquals(2*8*0.95+"EUR",hp.printPrice(2));
     }
     @Test
     public void priceForThreeDiff(){
-        assertEquals("21.6EUR",hp.printPrice(3));
+        assertEquals(3*8*0.9+"EUR",hp.printPrice(3));
     }
     @Test
     public void priceForFourDiff(){
-        assertEquals("25.6EUR",hp.printPrice(4));
+        assertEquals(4*8*0.8+"EUR",hp.printPrice(4));
     }
     @Test
     public void priceForFiveDiff(){
-        assertEquals("30.0EUR",hp.printPrice(5));
+        assertEquals(5*8*0.75+"EUR",hp.printPrice(5));
     }
+    //@Test
+    //public void priceThreeDiffOfFour(){
+        //assertEquals("",hp.printPrice(5));
+    //}
 }
