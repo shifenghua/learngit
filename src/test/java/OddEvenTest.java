@@ -19,14 +19,6 @@ public class OddEvenTest {
     }
 
     @Test
-    public void threePrintThree(){
-        assertEquals("3",oe.evaluate(3));
-    }
-    @Test
-    public void  fourPrintFour(){
-       assertEquals("4",oe.evaluate(4));
-    }
-    @Test
     public void ninePrintOdd(){
         assertEquals("Odd",oe.evaluate(9));
     }
