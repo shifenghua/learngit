@@ -40,4 +40,8 @@ public class FizzBuzzTest {
     public void sixReturnsFizz(){
         assertEquals("Fizz",fb.evaluate(6));
     }
+    @Test
+    public void tenReturnsBuzz(){
+        assertEquals("Buzz",fb.evaluate(10));
+    }
 }

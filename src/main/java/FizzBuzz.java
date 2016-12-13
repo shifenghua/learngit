@@ -3,11 +3,15 @@
  */
 public  class FizzBuzz {
     public String evaluate(int number) {
-        if(number%3==0){
+        if(isMultipleOf3(number)){
             return "Fizz";
-        }else if(number==5){
+        }else if(number % 5 == 0){
             return "Buzz";
         }
         return String.valueOf(number);
+    }
+
+    private boolean isMultipleOf3(int number) {
+        return number%3==0;
     }
 }
