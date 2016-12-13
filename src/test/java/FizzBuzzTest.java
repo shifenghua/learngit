@@ -21,7 +21,10 @@ public class FizzBuzzTest {
 
     @Test
     public void oneReturnsOne(){
-        String result = fb.evaluate(1);
-        assertEquals("1",result);
+        assertEquals("1",fb.evaluate(1));
+    }
+    @Test
+    public void twoReturnsTwo(){
+        assertEquals("2",fb.evaluate(2));
     }
 }
