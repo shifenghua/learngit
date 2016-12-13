@@ -1,5 +1,6 @@
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
+import org.testng.xml.dom.ParentSetter;
 
 import static org.testng.Assert.assertEquals;
 
@@ -34,5 +35,9 @@ public class FizzBuzzTest {
     @Test
     public void fiveReturnsBuzz(){
         assertEquals("Buzz",fb.evaluate(5));
+    }
+    @Test
+    public void sixReturnsFizz(){
+        assertEquals("Fizz",fb.evaluate(6));
     }
 }
