@@ -18,6 +18,6 @@ public  class FizzBuzz {
     }
 
     private boolean isMultipleOf3(int number) {
-        return number%3==0;
+        return number%3 == 0;
     }
 }

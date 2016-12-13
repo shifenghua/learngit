@@ -5,7 +5,7 @@ import org.testng.xml.dom.ParentSetter;
 import static org.testng.Assert.assertEquals;
 
 /**
- * Created by Administrator on 2016/12/13.
+ * Created by $ fenghua on 2016/12/13.
  */
 public class FizzBuzzTest {
 
