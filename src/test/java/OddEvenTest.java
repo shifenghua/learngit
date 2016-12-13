@@ -25,4 +25,12 @@ public class OddEvenTest {
     public void  fourPrintFour(){
        assertEquals("4",oe.evaluate(4));
     }
+    @Test
+    public void ninePrintOdd(){
+        assertEquals("Odd",oe.evaluate(9));
+    }
+    @Test
+    public void tenPrintEven(){
+        assertEquals("Even",oe.evaluate(10));
+    }
 }
