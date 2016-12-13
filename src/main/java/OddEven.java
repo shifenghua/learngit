@@ -3,6 +3,6 @@
  */
 public class OddEven {
     public String evaluate(int num) {
-        return "3";
+        return String.valueOf(num);
     }
 }
