@@ -18,9 +18,10 @@ public class HarryPotterTest {
 
     @Test
     public void priceForOne(){
-        assertEquals("8 EUR", hp.printPrice(1));
+        int[] num = {0,0,0,0,1};
+        assertEquals("8.0", hp.printPrice(num));
     }
-    @Test
+    /**@Test
     public void priceForTwoDiff(){
         assertEquals(2*8*0.95+"EUR",hp.printPrice(2));
     }
@@ -35,9 +36,10 @@ public class HarryPotterTest {
     @Test
     public void priceForFiveDiff(){
         assertEquals(5*8*0.75+"EUR",hp.printPrice(5));
-    }
-    //@Test
-    //public void priceThreeDiffOfFour(){
-        //assertEquals("",hp.printPrice(5));
-    //}
+    }*/
+    /**@Test
+    public void priceThreeDiffOfFour(){
+        int[] num={1,1,2,2,2};
+        assertEquals("51.2",hp.printPrice(num));
+    }*/
 }
