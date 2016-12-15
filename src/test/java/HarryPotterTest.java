@@ -19,27 +19,33 @@ public class HarryPotterTest {
     @Test
     public void priceForOne(){
         int[] num = {0,0,0,0,1};
-        assertEquals("8.0", hp.printPrice(num));
-    }
-    /**@Test
-    public void priceForTwoDiff(){
-        assertEquals(2*8*0.95+"EUR",hp.printPrice(2));
+        assertEquals(8.00, hp.printPrice(num));
     }
     @Test
+     public void priceForTwoDiff(){
+        int[] num = {0,0,0,1,1};
+        assertEquals(2*8*0.95,hp.printPrice(num));
+    }
+     @Test
     public void priceForThreeDiff(){
-        assertEquals(3*8*0.9+"EUR",hp.printPrice(3));
+
+         int[] num = {0,0,1,1,1};
+         assertEquals(3*8*0.9,hp.printPrice(num));
     }
     @Test
     public void priceForFourDiff(){
-        assertEquals(4*8*0.8+"EUR",hp.printPrice(4));
+
+        int[] num = {0,1,1,1,1};
+        assertEquals(4*8*0.8,hp.printPrice(num));
     }
     @Test
     public void priceForFiveDiff(){
-        assertEquals(5*8*0.75+"EUR",hp.printPrice(5));
-    }*/
-    /**@Test
+        int[] num = {1,1,1,1,1};
+        assertEquals(5*8*0.75,hp.printPrice(num));
+    }
+    @Test
     public void priceThreeDiffOfFour(){
         int[] num={1,1,2,2,2};
-        assertEquals("51.2",hp.printPrice(num));
-    }*/
+        assertEquals(51.6,hp.printPrice(num));
+    }
 }
