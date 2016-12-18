@@ -16,7 +16,7 @@ public class HarryPotter {
 
     private void theAllIsNotZero(int[] num) {
         if(num[4] != 0 ){
-            for(int i=3;i<5;i++){
+            for(int i=4;i<5;i++){
                 num[i]= num[i]- num[3];
             }
                 sum=sum+ num[4]*8;
@@ -25,7 +25,7 @@ public class HarryPotter {
 
     private void theFirstFourIsNotZero(int[] num) {
         if(num[3] != 0 ){
-            for(int i=2;i<5;i++){
+            for(int i=3;i<5;i++){
                 num[i]= num[i]- num[2];
             }
                 sum=sum+ num[3]*2*8*0.95;
@@ -34,7 +34,7 @@ public class HarryPotter {
 
     private void theFirstThreeIsNotZero(int[] num) {
         if(num[2] != 0 ){
-            for(int i=1;i<5;i++){
+            for(int i=2;i<5;i++){
                 num[i]= num[i]- num[1];
             }
                 sum=sum+ num[2]*3*8*0.9;
@@ -43,7 +43,7 @@ public class HarryPotter {
 
     private void theFirstTwoIsNotZero(int[] num) {
         if(num[1] != 0 ){
-            for(int i=0;i<5;i++){
+            for(int i=1;i<5;i++){
                 num[i]= num[i]- num[0];
             }
                 sum=sum+ num[1]*4*8*0.8;

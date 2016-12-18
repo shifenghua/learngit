@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="514a272e-25b0-4c73-b794-e36c1f74efa7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/HarryPotter.class" afterPath="$PROJECT_DIR$/target/classes/HarryPotter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/HarryPotterTest.class" afterPath="$PROJECT_DIR$/target/test-classes/HarryPotterTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/HarryPotter.java" afterPath="$PROJECT_DIR$/src/main/java/HarryPotter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/HarryPotterTest.java" afterPath="$PROJECT_DIR$/src/test/java/HarryPotterTest.java" />
     </list>
     <ignored path="FizzBuzz.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -99,7 +96,17 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="440">
               <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#399#400#0" expanded="false" />
+                <element signature="e#450#451#0" expanded="false" />
+                <element signature="e#493#494#0" expanded="false" />
+                <element signature="e#543#544#0" expanded="false" />
+                <element signature="e#585#586#0" expanded="false" />
+                <element signature="e#637#638#0" expanded="false" />
+                <element signature="e#680#681#0" expanded="false" />
+                <element signature="e#728#729#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -107,12 +114,12 @@
       <file leaf-file-name="HarryPotterTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/HarryPotterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="682">
-              <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+            <state relative-caret-position="572">
+              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <marker date="1481781879391" expanded="true" signature="587:630" ph=" { " />
-                <marker date="1481781879391" expanded="false" signature="672:678" ph=" }" />
+                <marker date="1481781879391" expanded="true" signature="672:678" ph=" }" />
                 <marker date="1481781879391" expanded="false" signature="725:727" ph=" { " />
                 <marker date="1481781879391" expanded="false" signature="812:818" ph=" }" />
                 <marker date="1481781879391" expanded="false" signature="863:865" ph=" { " />
@@ -125,8 +132,8 @@
       <file leaf-file-name="HarryPotter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/HarryPotter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-549">
-              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            <state relative-caret-position="197">
+              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -213,8 +220,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -271,7 +278,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -289,91 +296,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.HarryPotterTest.priceForThreeDiff">
-    <configuration default="false" name="HarryPotterTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="learngit" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HarryPotterTest" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="false" name="HarryPotterTest.priceForFiveDiff" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="learngit" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HarryPotterTest" />
-      <option name="METHOD_NAME" value="priceForFiveDiff" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="false" name="HarryPotterTest.priceForOne" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="learngit" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HarryPotterTest" />
-      <option name="METHOD_NAME" value="priceForOne" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="TestNG.HarryPotterTest">
     <configuration default="false" name="HarryPotterTest.priceForTwoDiff" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="learngit" />
@@ -413,6 +336,90 @@
       <option name="METHOD_NAME" value="priceForThreeDiff" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="HarryPotterTest.priceForFourDiff" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="learngit" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HarryPotterTest" />
+      <option name="METHOD_NAME" value="priceForFourDiff" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="HarryPotterTest.priceThreeDiffOfFour" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="learngit" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HarryPotterTest" />
+      <option name="METHOD_NAME" value="priceThreeDiffOfFour" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="HarryPotterTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="learngit" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HarryPotterTest" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -845,19 +852,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.HarryPotterTest" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.HarryPotterTest.priceForFiveDiff" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.HarryPotterTest.priceForOne" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.HarryPotterTest.priceForTwoDiff" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.HarryPotterTest.priceForThreeDiff" />
+      <item index="0" class="java.lang.String" itemvalue="TestNG.HarryPotterTest.priceForTwoDiff" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.HarryPotterTest.priceForThreeDiff" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.HarryPotterTest.priceForFourDiff" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.HarryPotterTest.priceThreeDiffOfFour" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.HarryPotterTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.HarryPotterTest.priceForThreeDiff" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.HarryPotterTest.priceForTwoDiff" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.HarryPotterTest.priceForOne" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.HarryPotterTest" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.HarryPotterTest.priceForFiveDiff" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.HarryPotterTest" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.HarryPotterTest.priceThreeDiffOfFour" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.HarryPotterTest.priceForFourDiff" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.HarryPotterTest.priceForThreeDiff" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.HarryPotterTest.priceForTwoDiff" />
       </list>
     </recent_temporary>
   </component>
@@ -874,47 +881,48 @@
       <workItem from="1481597352600" duration="24364000" />
       <workItem from="1481683316677" duration="12616000" />
       <workItem from="1481779173415" duration="4745000" />
+      <workItem from="1482054897156" duration="4383000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HarryPotterTest - 2016.12.15 at 14h 06m 12s.xml">
+    <history-entry file="HarryPotterTest - 2016.12.18 at 19h 11m 28s.xml">
       <configuration name="HarryPotterTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HarryPotterTest - 2016.12.15 at 14h 17m 12s.xml">
+    <history-entry file="HarryPotterTest - 2016.12.18 at 19h 12m 45s.xml">
       <configuration name="HarryPotterTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HarryPotterTest_priceForFiveDiff - 2016.12.15 at 14h 05m 59s.xml">
-      <configuration name="HarryPotterTest.priceForFiveDiff" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HarryPotterTest_priceForFourDiff - 2016.12.15 at 14h 05m 54s.xml">
+    <history-entry file="HarryPotterTest_priceForFourDiff - 2016.12.18 at 19h 12m 23s.xml">
       <configuration name="HarryPotterTest.priceForFourDiff" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HarryPotterTest_priceForOne - 2016.12.15 at 14h 11m 21s.xml">
+    <history-entry file="HarryPotterTest_priceForOne - 2016.12.18 at 19h 12m 05s.xml">
       <configuration name="HarryPotterTest.priceForOne" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HarryPotterTest_priceForOne - 2016.12.15 at 16h 05m 44s.xml">
-      <configuration name="HarryPotterTest.priceForOne" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HarryPotterTest_priceForThreeDiff - 2016.12.15 at 14h 16m 40s.xml">
+    <history-entry file="HarryPotterTest_priceForThreeDiff - 2016.12.18 at 19h 12m 17s.xml">
       <configuration name="HarryPotterTest.priceForThreeDiff" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HarryPotterTest_priceForThreeDiff - 2016.12.15 at 16h 06m 08s.xml">
-      <configuration name="HarryPotterTest.priceForThreeDiff" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HarryPotterTest_priceForTwoDiff - 2016.12.15 at 14h 16m 18s.xml">
+    <history-entry file="HarryPotterTest_priceForTwoDiff - 2016.12.18 at 18h 45m 16s.xml">
       <configuration name="HarryPotterTest.priceForTwoDiff" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HarryPotterTest_priceForTwoDiff - 2016.12.15 at 16h 05m 51s.xml">
+    <history-entry file="HarryPotterTest_priceForTwoDiff - 2016.12.18 at 19h 02m 38s.xml">
       <configuration name="HarryPotterTest.priceForTwoDiff" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HarryPotterTest_priceForTwoDiff - 2016.12.18 at 19h 12m 11s.xml">
+      <configuration name="HarryPotterTest.priceForTwoDiff" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HarryPotterTest_priceThreeDiffOfFour - 2016.12.18 at 19h 12m 29s.xml">
+      <configuration name="HarryPotterTest.priceThreeDiffOfFour" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HarryPotterTest_priceThreeDiffOfFour - 2016.12.18 at 19h 12m 35s.xml">
+      <configuration name="HarryPotterTest.priceThreeDiffOfFour" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41725000" />
+    <option name="totallyTimeSpent" value="46108000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -923,8 +931,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17397882" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -933,7 +941,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39934534" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -982,7 +990,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="8" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1049,9 +1059,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/OddEvenTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-          <folding />
+        <state relative-caret-position="440">
+          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#399#400#0" expanded="false" />
+            <element signature="e#450#451#0" expanded="false" />
+            <element signature="e#493#494#0" expanded="false" />
+            <element signature="e#543#544#0" expanded="false" />
+            <element signature="e#585#586#0" expanded="false" />
+            <element signature="e#637#638#0" expanded="false" />
+            <element signature="e#680#681#0" expanded="false" />
+            <element signature="e#728#729#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1062,7 +1082,106 @@
           <folding>
             <element signature="imports" expanded="true" />
             <marker date="1481781879391" expanded="true" signature="587:630" ph=" { " />
-            <marker date="1481781879391" expanded="false" signature="672:678" ph=" }" />
+            <marker date="1481781879391" expanded="true" signature="672:678" ph=" }" />
+            <marker date="1481781879391" expanded="false" signature="725:727" ph=" { " />
+            <marker date="1481781879391" expanded="false" signature="812:818" ph=" }" />
+            <marker date="1481781879391" expanded="false" signature="863:865" ph=" { " />
+            <marker date="1481781879391" expanded="false" signature="948:954" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/HarryPotter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learngit.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/FizzBuzzTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="5" selection-start-line="12" selection-start-column="3" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#403#404#0" expanded="false" />
+            <element signature="e#433#434#0" expanded="false" />
+            <element signature="e#477#478#0" expanded="false" />
+            <element signature="e#525#526#0" expanded="false" />
+            <element signature="e#568#569#0" expanded="false" />
+            <element signature="e#616#617#0" expanded="false" />
+            <element signature="e#662#663#0" expanded="false" />
+            <element signature="e#713#714#0" expanded="false" />
+            <element signature="e#758#759#0" expanded="false" />
+            <element signature="e#809#810#0" expanded="false" />
+            <element signature="e#853#854#0" expanded="false" />
+            <element signature="e#904#905#0" expanded="false" />
+            <element signature="e#948#949#0" expanded="false" />
+            <element signature="e#1000#1001#0" expanded="false" />
+            <element signature="e#1052#1053#0" expanded="false" />
+            <element signature="e#1108#1109#0" expanded="false" />
+            <element signature="e#1159#1160#0" expanded="false" />
+            <element signature="e#1215#1216#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FizzBuzz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="e#447#448#0" expanded="false" />
+            <element signature="e#485#486#0" expanded="false" />
+            <element signature="e#534#535#0" expanded="false" />
+            <element signature="e#570#571#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/OddEvenTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#399#400#0" expanded="false" />
+            <element signature="e#450#451#0" expanded="false" />
+            <element signature="e#493#494#0" expanded="false" />
+            <element signature="e#543#544#0" expanded="false" />
+            <element signature="e#585#586#0" expanded="false" />
+            <element signature="e#637#638#0" expanded="false" />
+            <element signature="e#680#681#0" expanded="false" />
+            <element signature="e#728#729#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/HarryPotterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1481781879391" expanded="true" signature="587:630" ph=" { " />
+            <marker date="1481781879391" expanded="true" signature="672:678" ph=" }" />
             <marker date="1481781879391" expanded="false" signature="725:727" ph=" { " />
             <marker date="1481781879391" expanded="false" signature="812:818" ph=" }" />
             <marker date="1481781879391" expanded="false" signature="863:865" ph=" { " />
@@ -1140,7 +1259,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#399#400#0" expanded="false" />
+            <element signature="e#450#451#0" expanded="false" />
+            <element signature="e#493#494#0" expanded="false" />
+            <element signature="e#543#544#0" expanded="false" />
+            <element signature="e#585#586#0" expanded="false" />
+            <element signature="e#637#638#0" expanded="false" />
+            <element signature="e#680#681#0" expanded="false" />
+            <element signature="e#728#729#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1151,7 +1280,7 @@
           <folding>
             <element signature="imports" expanded="true" />
             <marker date="1481781879391" expanded="true" signature="587:630" ph=" { " />
-            <marker date="1481781879391" expanded="false" signature="672:678" ph=" }" />
+            <marker date="1481781879391" expanded="true" signature="672:678" ph=" }" />
             <marker date="1481781879391" expanded="false" signature="725:727" ph=" { " />
             <marker date="1481781879391" expanded="false" signature="812:818" ph=" }" />
             <marker date="1481781879391" expanded="false" signature="863:865" ph=" { " />
@@ -1164,7 +1293,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1237,7 +1365,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1245,26 +1372,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
           <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#399#400#0" expanded="false" />
+            <element signature="e#450#451#0" expanded="false" />
+            <element signature="e#493#494#0" expanded="false" />
+            <element signature="e#543#544#0" expanded="false" />
+            <element signature="e#585#586#0" expanded="false" />
+            <element signature="e#637#638#0" expanded="false" />
+            <element signature="e#680#681#0" expanded="false" />
+            <element signature="e#728#729#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/HarryPotter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-549">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        <state relative-caret-position="197">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/HarryPotterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+        <state relative-caret-position="572">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <marker date="1481781879391" expanded="true" signature="587:630" ph=" { " />
-            <marker date="1481781879391" expanded="false" signature="672:678" ph=" }" />
+            <marker date="1481781879391" expanded="true" signature="672:678" ph=" }" />
             <marker date="1481781879391" expanded="false" signature="725:727" ph=" { " />
             <marker date="1481781879391" expanded="false" signature="812:818" ph=" }" />
             <marker date="1481781879391" expanded="false" signature="863:865" ph=" { " />
