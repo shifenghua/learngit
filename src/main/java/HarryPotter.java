@@ -6,6 +6,7 @@ public class HarryPotter {
     private double sum = 0;
     public double printPrice(int[] num) {
 
+        sum = 0;
         theFistIsNotZero(num[0]);
         theFirstTwoIsNotZero(num);
         theFirstThreeIsNotZero(num);
